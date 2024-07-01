@@ -11,7 +11,7 @@ const default_config = {
     iconColor: "#f38ba8",
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://dashy.homelab.haseebmajid.dev",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -22,13 +22,13 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "Home Lab",
+              url: "https://dashy.homelab.haseebmajid.dev",
+              icon: "home",
               icon_color: "#a6e3a1",
             },
             {
-              name: "musicForProgramming();",
+              name: "musicForProgramming()",
               url: "https://musicforprogramming.net/sixty",
               icon: "binary-tree",
               icon_color: "#fab387",
@@ -39,21 +39,21 @@ const default_config = {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "Mail",
+              url: "https://mail.proton.me/u/0/inbox",
+              icon: "mail",
               icon_color: "#a6e3a1",
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "Github",
+              url: "https://github.com/hmajid2301",
+              icon: "brand-github",
               icon_color: "#fab387",
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "GitLab",
+              url: "https://gitlab.com/hmajid2301",
+              icon: "brand-gitlab",
               icon_color: "#f38ba8",
             },
             {
@@ -65,24 +65,24 @@ const default_config = {
           ],
         },
         {
-          name: "media",
+          name: "Home Lab",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "Time Tagger",
+              url: "https://www.timetagger.homelab.haseebmajid.dev",
+              icon: "timeline",
               icon_color: "#a6e3a1",
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
+              name: "Ryot",
+              url: "https://ryot.homelab.haseebmajid.dev",
+              icon: "barbell",
               icon_color: "#fab387",
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
+              name: "Grafana",
+              url: "https://grafana.homelab.haseebmajid.dev",
+              icon: "device-heart-monitor",
               icon_color: "#f38ba8",
             },
             {
@@ -184,7 +184,7 @@ const default_config = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/cbg-13.gif",
       categories: [
         {
           name: "social medias",
