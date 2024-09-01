@@ -213,10 +213,16 @@ const default_config = {
               icon_color: "#a6e3a1",
             },
             {
+              name: "Jellyfin",
+              url: "https://jellyfin.haseebmajid.dev/",
+              icon: "video",
+              icon_color: "#fab387",
+            },
+            {
               name: "Youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
-              icon_color: "#fab387",
+              icon_color: "#f38ba8",
             },
           ],
         },
