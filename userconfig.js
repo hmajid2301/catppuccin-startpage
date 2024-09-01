@@ -11,7 +11,7 @@ const default_config = {
     iconColor: "#f38ba8",
   },
   disabled: [],
-  fastlink: "https://dashy.homelab.haseebmajid.dev",
+  fastlink: "https://homepage.bare.homelab.haseebmajid.dev",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -23,7 +23,7 @@ const default_config = {
           links: [
             {
               name: "Home Lab",
-              url: "https://dashy.homelab.haseebmajid.dev",
+              url: "https://homepage.bare.homelab.haseebmajid.dev",
               icon: "home",
               icon_color: "#a6e3a1",
             },
@@ -68,27 +68,33 @@ const default_config = {
           name: "Home Lab",
           links: [
             {
-              name: "Time Tagger",
-              url: "https://www.timetagger.homelab.haseebmajid.dev",
-              icon: "timeline",
+              name: "Authentik",
+              url: "https://www.authentik.haseebmajid.dev",
+              icon: "brand-auth0",
               icon_color: "#a6e3a1",
             },
             {
-              name: "Ryot",
-              url: "https://ryot.homelab.haseebmajid.dev",
+              name: "Net Data",
+              url: "https://netdata.bare.homelab.haseebmajid.dev",
               icon: "barbell",
               icon_color: "#fab387",
             },
             {
               name: "Grafana",
-              url: "https://grafana.homelab.haseebmajid.dev",
+              url: "https://grafana.bare.homelab.haseebmajid.dev",
               icon: "device-heart-monitor",
               icon_color: "#f38ba8",
             },
             {
-              name: "Recipes",
-              url: "https://www.recipes.homelab.haseebmajid.dev",
-              icon: "chef-hat",
+              name: "Tailscale",
+              url: "https://one.dash.cloudflare.com/2db62630e1032ef3eb682987078e4743/networks/tunnels?search=",
+              icon: "cbrand-cloudflare",
+              icon_color: "#89b4fa",
+            },
+            {
+              name: "Tunnels",
+              url: "https://one.dash.cloudflare.com/2db62630e1032ef3eb682987078e4743/networks/tunnels?search=",
+              icon: "scale",
               icon_color: "#cba6f7",
             },
           ],
@@ -134,7 +140,7 @@ const default_config = {
             {
               name: "Nix Options",
               url: "https://search.nixos.org/options",
-              icon: "opt",
+              icon: "brand-snowflake",
               icon_color: "#a6e3a1",
             },
             {
@@ -156,12 +162,12 @@ const default_config = {
           links: [
             {
               name: "NixOS",
-              url: "https://www.reddit.com/r/NixOS/",
+              url: "https://www.reddit.com/",
               icon: "snowflake",
               icon_color: "#a6e3a1",
             },
             {
-              name: "hackernews",
+              name: "HackerNews",
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
               icon_color: "#fab387",
@@ -178,20 +184,20 @@ const default_config = {
           name: "social medias",
           links: [
             {
-              name: "telegram",
+              name: "Telegram",
               url: "https://web.telegram.org",
               icon: "brand-telegram",
               icon_color: "#a6e3a1",
             },
             {
-              name: "whatsapp",
-              url: "https://www.web.whatsapp.com",
+              name: "Whatsapp",
+              url: "https://web.whatsapp.com",
               icon: "brand-whatsapp",
               icon_color: "#fab387",
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/r/selfhosted",
+              name: "Reddit",
+              url: "https://www.reddit.com",
               icon: "brand-reddit",
               icon_color: "#f38ba8",
             },
@@ -207,7 +213,7 @@ const default_config = {
               icon_color: "#a6e3a1",
             },
             {
-              name: "youtube",
+              name: "Youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: "#fab387",
